@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans serif;
+}
+
+header{
+    display: flex;
+    height: 60px;
+}
+
+header h1{
+    margin: auto;
+    font-family: times new roman;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    height:  45px;
+    position: sticky;
+    overflow-x: auto;
+    top: 0;
+    z-index: 2;
+}
+
+nav a{
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+section {
+    top: 45px;
+    padding: 45px 0 0 0;
+    height: 100vh;
+}
+
+section h1{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.section1{
+    background-color: lightblue;
+}
+
+.link1:hover{
+    color: lightblue;
+}
+
+.section2{
+    background-image: url('cafe-22873741.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    }
+
+.link2:hover{
+    color: lightgreen;
+}
+
+.section3{
+    background-image: url('praia.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#tema3 p {
+    display: inline-block;
+    margin: auto;
+    color: blue;
+    background-color: rgba(255,,255,255,1);
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px black;
+    margin: 10px;
+}
+
+.link3:hover{
+    color: lightpink;
+}
+
+.section4{
+    background-color: lightslategrey;
+}
+
+.link4:hover{
+    color: lightslategrey;
+}
+.section5{
+    background-color: lightyellow;
+}
+
+.link5:hover{
+    color: lightyellow;
+}
+
+section p{
+    text-align: center;
+    padding: 0 0 0 5px;
+    margin: 10px;
+}
+
+section img{
+    display: flex;
+    margin: auto;
+    width: 350px;
+    height: 450px;
+    box-shadow: 4px 4px 12px rgb(0,0,0,0.5);
+    border-radius: 10px;
+}
